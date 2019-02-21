@@ -26,6 +26,7 @@
 		<div>
 	
 3. 在业务js中，需要防抖动的逻辑部分上加上防抖动标识（data-anti-status）判断
+
 	    wrap.addEventListener("touchmove", function (ev) {
 	    	/*
 	    	 * 1.data-anti-status="no",表示此时防抖动状态关闭，业务逻辑正常执行
